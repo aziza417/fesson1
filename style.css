@@ -1,8 +1,9 @@
 * {
-    margin: 0;
+    box-sizing: border-box;
     padding: auto;
 }
 .container {
+    margin: 0 auto;
     width: 1920px;
     border: 5px solid green;
 
@@ -54,10 +55,10 @@
         height: 70px;
         font-size: 23px;
         color: white;
-        border: none;.
-        top: 120px;
-        margin-top: 300px;
-        margin-left: -1750px;
+        border: none;
+        top: 5px;
+       margin-top: 280px;
+       margin-left: 180px;
     }
     h1 {
         font-size: 70px;
@@ -72,10 +73,11 @@
         color: white;
         background: blue;
         border-radius: 50px;
-        margin-top: 550px;
+        /* margin-top: 550px; */
         position: absolute;
-        margin-left: -1750px;
+        margin-left: 180px;
         border: none;
+        top: 550px;
     }
 } 
 .exsh {
